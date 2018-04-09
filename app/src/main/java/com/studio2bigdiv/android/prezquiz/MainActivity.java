@@ -2,6 +2,9 @@ package com.studio2bigdiv.android.prezquiz;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
+
+import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
     String[] presidentsArray = {
@@ -50,11 +53,18 @@ public class MainActivity extends AppCompatActivity {
         "George W. Bush",
         "Barack Obama",
         "Donald Trump"
-    }
+    };
+
+    Random rand = new Random();
+    int presidentNumber = rand.nextInt(presidentsArray.length);
+    String presidentName = presidentsArray[presidentNumber];
+    String question = "Who was president #" + (presidentNumber + 1) + "?";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Log.i("*** Activity question: ", question);
+        Log.i("*** Activity answer: ", presidentName);
     }
 }
