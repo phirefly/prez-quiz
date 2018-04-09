@@ -9,7 +9,7 @@
     android:orientation="vertical">
 
     <ImageView
-        android:src="@drawable/president_01_name"
+        android:src="@drawable/prez_01"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
@@ -17,7 +17,7 @@
         android:layout_marginBottom="8dp" />
 
     <TextView
-        android:text="President name"
+        android:text="George Washington"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@android:color/white"
@@ -27,7 +27,7 @@
         android:background="#009688"/>
 
     <TextView
-        android:text="The XXth President"
+        android:text="The 1st President"
         android:paddingLeft="16dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
