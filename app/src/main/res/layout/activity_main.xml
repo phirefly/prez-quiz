@@ -9,12 +9,28 @@
     android:orientation="vertical">
 
     <TextView
+        android:id="@+id/question_display"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Who was the 5th president?"/>
+        android:text="Loading question..."/>
+
     <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/option_1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:text="Loading Option 1"/>
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/option_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Loading Option 2"/>
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/option_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Loading Option 3"/>
 
     <TextView
         android:text="George Washington"
