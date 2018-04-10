@@ -3,6 +3,7 @@ package com.studio2bigdiv.android.prezquiz;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -94,7 +95,11 @@ public class MainActivity extends AppCompatActivity {
         questionOption3.setText(presidentsArray[optionIds.get(2)]);
     }
 
-    //private boolean checkAnswer()
+    public String checkAnswers(View view) {
+        String resultsMessage = "You got XX/XX right. Here are the results:";
+        Log.i("*** Results: ", resultsMessage);
+        return resultsMessage;
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
