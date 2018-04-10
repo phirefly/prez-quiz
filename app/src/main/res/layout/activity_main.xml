@@ -8,7 +8,15 @@
     android:paddingBottom="16dp"
     android:orientation="vertical">
 
+    <EditText
+        android:id="@+id/user_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name"
+        android:inputType="text" />
+
     <TextView
+        android:paddingTop="20dp"
         android:id="@+id/question_display"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -35,6 +43,90 @@
         android:layout_height="wrap_content"
         android:text="Loading Option 3"/>
     </RadioGroup>
+
+
+    <TextView
+        android:paddingTop="20dp"
+        android:id="@+id/question_display_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Which of the following presidents came before Abraham Lincoln?"/>
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Andrew Jackson"/>
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Millard Fillmore"/>
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rutherford B. Hayes"/>
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="James Madison"/>
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Andrew Jackson"/>
+
+
+    <TextView
+        android:paddingTop="20dp"
+        android:id="@+id/question_display_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What does the 'S' in Harry S Truman stand for?"/>
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.AppCompatRadioButton
+            android:id="@+id/option_3_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Saul"/>
+
+        <android.support.v7.widget.AppCompatRadioButton
+            android:id="@+id/option_3_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Skipper"/>
+
+        <android.support.v7.widget.AppCompatRadioButton
+            android:id="@+id/option_3_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Samuel"/>
+
+        <android.support.v7.widget.AppCompatRadioButton
+            android:id="@+id/option_3_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nothing"/>
+    </RadioGroup>
+
+    <TextView
+        android:paddingTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Which president do you look like the most?"/>
+
+    <EditText
+        android:id="@+id/lookalike_president"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter a president's name"
+        android:inputType="text" />
 
 
 </LinearLayout>
