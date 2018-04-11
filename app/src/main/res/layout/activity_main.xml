@@ -27,7 +27,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Loading question..."/>
+
+    <TextView
+        android:paddingTop="20dp"
+        android:id="@+id/q1_answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Answer TBD"
+        android:background="@android:color/darker_gray"
+        />
     <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/question1_group"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
@@ -58,30 +68,39 @@
         android:layout_height="wrap_content"
         android:text="Which of the following presidents came before Abraham Lincoln?"/>
 
+    <TextView
+        android:paddingTop="20dp"
+        android:id="@+id/q2_answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Answer TBD"
+        android:background="@android:color/darker_gray"
+        />
+
     <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/q2_option1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Andrew Jackson"/>
 
     <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/q2_option2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Millard Fillmore"/>
 
     <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/q2_option3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Rutherford B. Hayes"/>
 
     <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/q2_option4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="James Madison"/>
 
-    <android.support.v7.widget.AppCompatCheckBox
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Andrew Jackson"/>
 
 
     <TextView
@@ -90,6 +109,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="What does the 'S' in Harry S Truman stand for?"/>
+
+    <TextView
+        android:paddingTop="20dp"
+        android:id="@+id/q3_answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Answer TBD"
+        android:background="@android:color/darker_gray"
+        />
 
     <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"
@@ -115,7 +143,7 @@
             android:text="Samuel"/>
 
         <android.support.v7.widget.AppCompatRadioButton
-            android:id="@+id/option_3_3"
+            android:id="@+id/option_3_4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Nothing"/>
@@ -126,6 +154,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Which president do you look like the most?"/>
+
+    <TextView
+        android:paddingTop="20dp"
+        android:id="@+id/q4_answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Answer TBD"
+        android:background="@android:color/darker_gray"
+        />
 
     <EditText
         android:id="@+id/lookalike_president"
